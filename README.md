@@ -36,7 +36,6 @@ The SMPP B2BUA is seamlessly integrated with TelecomsXChange Billing engine with
 - Prepaid (Authorized to only use the available prepaid amount in account)
 - Post-Paid (Credit Limit)
 - Rating (According to the longest prefix "MCC+MNC")
--
 
 
 # TESTING CHECK LIST
