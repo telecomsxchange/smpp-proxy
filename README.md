@@ -1,7 +1,7 @@
 # smpp-b2bua
 SMPP Back to Back User Agent.
 
-TelecomsXChange SMPP B2BUA is the core component for the SMS exchange functionality on telecomsxchange platform, it handles sms routing,billing and end to end control  
+TelecomsXChange SMPP B2BUA is the core component for the SMS exchange functionality on telecomsxchange platform, it handles sms Routing,Billing and security using AAA.
 
 - HIGH TPS SUPPORT
 - SMS ROUTING/LCR
@@ -15,7 +15,7 @@ TelecomsXChange SMPP B2BUA is the core component for the SMS exchange functional
 
 # Encodings 
 
-This smpp implementation supports 3 encodings: ASCII (GSM 03.38), LATIN1, and UCS2. Respective data_coding for these encodings are 0x01, 0x03, and 0x08.
+This SMPP implementation supports 3 encodings: ASCII (GSM 03.38), LATIN1, and UCS2. Respective data_coding for these encodings are 0x01, 0x03, and 0x08.
 
 Default encoding for data_coding:0 is ASCII. 
 
@@ -25,7 +25,7 @@ Default encoding for data_coding:0 is ASCII.
 The routing capabilities plan ed are: 
 
 - PREFIX LENGTH (MCC+MNC)
-- Least Cost Routing. // routes according to least cost route price 
+- Least Cost Routing. // routes according to least cost route price for the longest prefix length.
 - Buyer Tech Prefix // The ability to change routes from carrier to carrier by simply pointing to a different tech prefix
 - ORDER. // The ability to set order value for vendors 1,2,3 where 1 is first in route, 2 is second priority, 3 if 1&2 failed to connect.
 
