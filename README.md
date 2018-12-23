@@ -49,5 +49,10 @@ The SMPP B2BUA is seamlessly integrated with TelecomsXChange Billing engine with
 - SQUIRETECH
 - JASMIN
 
+# Languages Tested
 
+- English ----> Test completed successfully  
+- Arabic -----> Test completed successfully 
+- Persion
+- Chinese 
 
