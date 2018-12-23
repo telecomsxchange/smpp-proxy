@@ -1,7 +1,7 @@
 # smpp-b2bua
-SMPP Back to Back User Agent. 
+SMPP Back to Back User Agent.
 
-TelecomsXChange SMPP b2bua is the core component for the SMS exchange functionality on telecomsxchange platform, it handles sms routing,billing and end to end control  
+TelecomsXChange SMPP B2BUA is the core component for the SMS exchange functionality on telecomsxchange platform, it handles sms routing,billing and end to end control  
 
 - HIGH TPS SUPPORT
 - SMS ROUTING/LCR
@@ -24,18 +24,29 @@ Default encoding for data_coding:0 is ASCII.
 
 The routing capabilities plan ed are: 
 
-- PREFIX LENGTH 
-- MCC MNC
-- Least Cost Routing
-- Tech Prefix
-- ORDER
+- PREFIX LENGTH (MCC+MNC)
+- Least Cost Routing. // routes according to least cost route price 
+- Buyer Tech Prefix // The ability to change routes from carrier to carrier by simply pointing to a different tech prefix
+- ORDER. // The ability to set order value for vendors 1,2,3 where 1 is first in route, 2 is second priority, 3 if 1&2 failed to connect.
+
+# Billing
+
+The SMPP B2BUA is seamlessly integrated with TelecomsXChange Billing engine with the help of Radius (AAA), Authentication, Authorization, Accouting. some of the capabilities are:
+
+- Prepaid (Authorized to only use the available prepaid amount in account)
+- Post-Paid (Credit Limit)
+- Rating (According to the longest prefix "MCC+MNC")
+-
+
 
 # TESTING CHECK LIST
 
-- InfoBIP
-- RestcommSMC
-- Twilio
-- Monty
+- InfoBIP. ----> Testing Completed successfully
+- RestcommSMC ---> Testing completed successfully.
+- MontyMobile ---> Testing completed successfully.
+- AirTel
+- TATA
+- Twilio 
 - SQUIRETECH
 - JASMIN
 
