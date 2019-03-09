@@ -1,7 +1,7 @@
-# smpp-b2bua
+# smpp-proxy
 SMPP Back to Back User Agent.
 
-TelecomsXChange SMPP B2BUA is the core component for the SMS exchange functionality on telecomsxchange platform, it handles sms Routing,Billing and security using AAA.
+TelecomsXChange SMPP proxy is the core component for the SMS exchange functionality on telecomsxchange platform, it handles sms Routing,Billing and security using AAA.
 
 - HIGH TPS SUPPORT
 - SMS ROUTING/LCR
