@@ -6,15 +6,16 @@ SMPP Back to Back User Agent.
 
 TelecomsXChange SMPP proxy is the core component for the SMS exchange functionality on telecomsxchange platform, it handles sms Routing,Billing and security using AAA.
 
-- HIGH TPS SUPPORT
+- HIGH TPS SUPPORT up to 3000/sec per node (P.S with no billing)
 - SMS ROUTING/LCR
+- Throttling Control per buyer/IP-account/Route
 - PREPAID/POST BILLING/charging
-- Realtime SmS control and call data records (CDRs) generation using RADIUS
+- Realtime SMS control and call data records (CDRs) generation using RADIUS
 - Seamless compatibility with majority of popular SMPP software and hardware on the market today
 - Robustness and Resilence
 - SUPPORT SMPP V3.x and 5.x
 - SUPPORT RtL such as arabic and chinese letters
-- TPS limiting per account
+- Accurate SMPP Rate limiting per account/route
 
 # Encodings 
 
@@ -46,8 +47,10 @@ The SMPP B2BUA is seamlessly integrated with TelecomsXChange Billing engine with
 - InfoBIP. ----> Testing Completed successfully
 - RestcommSMC ---> Testing completed successfully.
 - MontyMobile ---> Testing completed successfully.
-- AirTel
-- TATA
+- AirTel  ----> Test completed successfully
+- X2One ---> Test completed successfully
+- Mitto.ch ---> Test completed successfully
+- TATA 
 - Twilio 
 - SQUIRETECH
 - JASMIN
@@ -57,5 +60,5 @@ The SMPP B2BUA is seamlessly integrated with TelecomsXChange Billing engine with
 - English ----> Test completed successfully  
 - Arabic -----> Test completed successfully 
 - Persion
-- Chinese 
+- Chinese ----> Test completed successfully.
 
