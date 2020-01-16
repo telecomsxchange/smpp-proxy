@@ -13,6 +13,8 @@ TelecomsXChange SMPP proxy is the core component for the SMS exchange functional
 - SMS ROUTING/LCR
 - Throttling Control per buyer/IP-account/Route
 - PREPAID/POST BILLING/charging
+- Concatenated Message Billing / Support
+- DLRs - Delivery Report Relay
 - Realtime SMS control and call data records (CDRs) generation using RADIUS
 - Seamless compatibility with majority of popular SMPP software and hardware on the market today
 - Robustness and Resilence
