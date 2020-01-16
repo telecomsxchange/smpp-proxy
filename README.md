@@ -7,7 +7,7 @@ Contact support@telecomsxchange.com or visit www.telecomsxchange.com/contact
 # smpp-proxy
 SMPP Proxy / B2BUA
 
-TelecomsXChange SMPP proxy is the core component for the SMS exchange functionality on telecomsxchange platform, it handles sms Routing,Billing and security using AAA.
+TelecomsXChange SMPP proxy is the core component for the SMS exchange functionality on telecomsxchange platform, it handles sms Routing,Billing and security using AAA, this stack has already successfully handled (routed and billed) millions of SMS messages.
 
 - HIGH TPS SUPPORT up to 3000/sec per node (P.S with no billing)
 - SMS ROUTING/LCR
