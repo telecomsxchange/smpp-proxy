@@ -5,7 +5,7 @@
 Contact support@telecomsxchange.com or visit www.telecomsxchange.com/contact
 
 # smpp-proxy
-SMPP Back to Back User Agent.
+SMPP Proxy / B2BUA
 
 TelecomsXChange SMPP proxy is the core component for the SMS exchange functionality on telecomsxchange platform, it handles sms Routing,Billing and security using AAA.
 
@@ -16,8 +16,8 @@ TelecomsXChange SMPP proxy is the core component for the SMS exchange functional
 - Realtime SMS control and call data records (CDRs) generation using RADIUS
 - Seamless compatibility with majority of popular SMPP software and hardware on the market today
 - Robustness and Resilence
-- SUPPORT SMPP V3.x and 5.x
-- SUPPORT RtL such as arabic and chinese letters
+- Supports SMPP V 5.x and backward compatiable with V3.x
+- SUPPORT RTL such as arabic and chinese letters
 - Accurate SMPP Rate limiting per account/route
 
 # Encodings 
@@ -53,15 +53,14 @@ The SMPP B2BUA is seamlessly integrated with TelecomsXChange Billing engine with
 - AirTel  ----> Test completed successfully
 - X2One ---> Test completed successfully
 - Mitto.ch ---> Test completed successfully
-- TATA 
-- Twilio 
+- TATA  
+- PlaySMS ----> Test completed Successfully 
 - SQUIRETECH
-- JASMIN
+- JASMIN ---> Test completed successfully
 
 # Languages Tested
 
 - English ----> Test completed successfully  
 - Arabic -----> Test completed successfully 
-- Persion
 - Chinese ----> Test completed successfully.
 
