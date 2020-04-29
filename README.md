@@ -29,6 +29,10 @@ This SMPP implementation supports 3 encodings: ASCII (GSM 03.38), LATIN1, and UC
 Default encoding for data_coding:0 is ASCII. 
 
 
+
+
+
+
 # ROUTING
 
 The routing capabilities planned are: 
@@ -47,6 +51,13 @@ The SMPP B2BUA is seamlessly integrated with TelecomsXChange Billing engine with
 - Post-Paid (Credit Limit)
 - Rating (According to the longest prefix "MCC+MNC")
 
+# Hardware tests with billing
+
+### 450,000,000 SMS per month.
+
+- [x] On Dual Xeon E5-2690 v3 2.60 GHz, 30M Cache Processors (24 Cores / 48 Threads) the SMPP proxy can run 180+ messages per second with AAA (Authorization, Authentication, Accounting).
+
+NodeJS is single threaded so to scale, you'll have to be running two SMPP proxies on same hardware will double the capacity.
 
 # TESTING CHECK LIST
 
