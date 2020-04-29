@@ -35,13 +35,13 @@ Default encoding for data_coding:0 is ASCII.
 
 # ROUTING
 
-The routing capabilities planned are: 
+The routing capabilities are: 
 
-- PREFIX LENGTH (MCC+MNC) - Done
-- Least Cost Routing. // routes according to least cost route price for the longest prefix length. - Roadmap 2020
+- [x] PREFIX LENGTH (MCC+MNC) - Done
+- [x] Least Cost Routing. // routes according to least cost route price for the longest prefix length. - Roadmap 2020
 - Buyer Tech Prefix // The ability to change routes from carrier to carrier by simply pointing to a different tech prefix -- Done
-- ORDER. // The ability to set order value for vendors 1,2,3 where 1 is first in route, 2 is second priority, 3 if 1&2 failed to connect. - Roadmap 2020
-- Load Balancing / Weight - Roadmap 2020
+- [x]ORDER. // The ability to set order value for vendors 1,2,3 where 1 is first in route, 2 is second priority, 3 if 1&2 failed to connect. 
+- [x] Load Balancing / Weight 
 
 # Billing
 
